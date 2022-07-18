@@ -2,20 +2,20 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import Logo from './partials/Logo';
+import LogoDark from './partials/LogoDark';
 
 const propTypes = {
   navPosition: PropTypes.string,
-  hideNav: PropTypes.bool,
-  hideSignin: PropTypes.bool,
+  // hideNav: PropTypes.bool,
+  // hideSignin: PropTypes.bool,
   bottomOuterDivider: PropTypes.bool,
   bottomDivider: PropTypes.bool
 }
 
 const defaultProps = {
   navPosition: '',
-  hideNav: false,
-  hideSignin: false,
+  // hideNav: false,
+  // hideSignin: false,
   bottomOuterDivider: false,
   bottomDivider: false
 }
@@ -23,8 +23,8 @@ const defaultProps = {
 const Header = ({
   className,
   navPosition,
-  hideNav,
-  hideSignin,
+  // hideNav,
+  // hideSignin,
   bottomOuterDivider,
   bottomDivider,
   ...props
@@ -85,8 +85,8 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
-          {!hideNav &&
+          <LogoDark />
+          {/* {!hideNav &&
             <>
               <button
                 ref={hamburger}
@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="#0" onClick={closeMenu}>About Us</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,12 +120,12 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Us</Link>
                       </li>
                     </ul>}
                 </div>
               </nav>
-            </>}
+            </>} */}
         </div>
       </div>
     </header>

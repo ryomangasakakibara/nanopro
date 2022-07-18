@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Image from '../../elements/Image';
 
-const Logo = ({
+const LogoDark = ({
   className,
   ...props
 }) => {
@@ -21,7 +21,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/nanoproLogo-01.svg')}
+            src={require('./../../../assets/images/logo_dark.png')}
             alt="Open"
             width={228}
             height={32} />
@@ -31,4 +31,4 @@ const Logo = ({
   );
 }
 
-export default Logo;
+export default LogoDark;

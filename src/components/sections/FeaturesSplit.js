@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Nanopro Termékek',
+    paragraph: 'A Nanopro kiváló minőségű termékeket kínál, amelyekre minden autórajongónak szüksége van'
   };
 
   return (
@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Védje meg befektetését
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Festékvédő Fólia
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Védje meg befektetését a vezetés mindennapi kockázataitól. A karcolásoktól a természetes kockázatokig, például az ipari csapadékig, a Nanopro festékvédő fóliák garantálják, hogy szeretett autója védve legyen — egyértelműen és robusztusan
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/fs_img1-02.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +93,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Részletes versenyzésre készült
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Vinyl
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Legyen szó versenyzésről vagy részletezésről, a Nanopro vinyleket professzionálisan gyártják, és bármely, a piacon kapható autó modelljéhez megfelelően alkalmazhatók.
                   </p>
               </div>
               <div className={
@@ -109,7 +109,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/fs_img2-03.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +119,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Védje magát a durva UV sugaraktól
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                Ablakfilm
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                A világostól a sötétig a Nanopro Window Films tökéletesen megfelel az Ön igényeinek. Akár 99%-ban blokkolja az UV-sugárzást és más durva természetes elemeket.
                   </p>
               </div>
               <div className={
@@ -135,7 +135,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/fs_img3-04.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />

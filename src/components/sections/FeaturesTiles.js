@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Magyarországon Készült',
+    paragraph: 'Gyártási folyamata egyedülálló, a termék teljesítménye pedig szembetűnő kontrasztjellemzőkkel rendelkezik a hagyományos ablakmembránokhoz képest.'
   };
 
   return (
@@ -71,11 +71,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    Nincs összetett gumi minta
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                      Az új NanoPrö sorozatú autóipari fóliák gyártása során nem szükséges a hagyományos bevonóanyag-ragasztó eljárás alkalmazása, mert nincs összetett ragasztó, nem lesznek a rálátást befolyásoló ragasztóvonalak.
+                  </p>
                 </div>
               </div>
             </div>
@@ -93,11 +93,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    Nincs tükör tükröződés
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Az új NanoPrö sorozatú autófólia ultrafinom ritka anyag diszperziós technológiát alkalmaz a PET alapfóliába, amely egy háromdimenziós feldolgozási technológia, így a termék magas hőszigetelő képességgel rendelkezik, és nem okoz fémvisszaverődést (nem tükröződik) .
+                  </p>
                 </div>
               </div>
             </div>
@@ -115,11 +115,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                     A hőszigetelési teljesítmény továbbra is stabil 
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                   Az új NanoPrö sorozatú autófóliák ultrafinom ritka anyagok diszperziós technológiáját alkalmazzák a PET-alapfóliába anélkül, hogy közvetlenül érintkeznének savakkal és lúgokkal, és az anyag tulajdonságait nem könnyű megváltoztatni. Az ezzel az alapfóliával készült autóipari fóliatermékek hőszigetelési teljesítménye továbbra is stabil, az IRR adatok elérik a 99%-ot.
+                  </p>
                 </div>
               </div>
             </div>
@@ -137,11 +137,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    Nincs oxidáció, nincsenek fekete vagy fehér élek
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  Nem oxidálódik, nincsenek fekete vagy fehér élek, A vadonatúj NanoPrö sorozatú autófólia hőszigetelő anyaga PET fólia alapanyagba van csomagolva, levegővel és vízgőzzel való érintkezés nélkül nem oxidálódik, így nem lesz fekete vagy fehér élek.  
+                  </p>
                 </div>
               </div>
             </div>
@@ -159,36 +159,14 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    Garancia
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    A NanoPrö sorozatot életre szóló garanciával támogatjuk, így magabiztosan vezethet.
+                  </p>
                 </div>
               </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
+            </div>            
 
           </div>
         </div>

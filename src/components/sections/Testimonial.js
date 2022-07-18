@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'Vélemények',
+    paragraph: 'Különböző szakértőkkel teszteltük a Nanoprö Autó Ablakfóliák a világ minden táján, és ők erre gondolnak'
   };
 
   return (
