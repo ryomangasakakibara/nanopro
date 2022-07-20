@@ -1,6 +1,6 @@
 {
   "homepage": "https://ryomangasakakibara.github.io/",
-  "name": "nanoprohu",
+  "name": "nanopro",
   "version": "0.1.0",
   "dependencies": {
     "classnames": "^2.2.6",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryomangasakakibara/nanoprohu.git"
+    "url": "https://github.com/ryomangasakakibara/nanopro.git"
   },
   "scripts": {
     "predeploy": "npm run build",
