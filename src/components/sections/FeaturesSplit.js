@@ -50,7 +50,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Nanopro Termékek',
+    title: 'A FESTÉKVÉDELEM ÚJ DIMENZIÓJA',
     paragraph: 'A Nanopro kiváló minőségű termékeket kínál, amelyekre minden autórajongónak szüksége van'
   };
 
